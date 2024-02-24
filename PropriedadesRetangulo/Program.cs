@@ -18,7 +18,8 @@ namespace PropriedadesRetangulo
             Console.WriteLine("\nEsse retângulo tem" +
                 "\nArea: " + retangulo1.CalcularArea() +
                 "\nPerimetro: " + retangulo1.CalcularPerimetro() +
-                "\nDiagonal: " + retangulo1.CalcularDiagonal());
+                "\nDiagonal: " + retangulo1.CalcularDiagonal() +
+                "\nArea Teste: " + retangulo1.Area);
         }
     }
 }

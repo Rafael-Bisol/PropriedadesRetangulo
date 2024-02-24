@@ -6,6 +6,14 @@ namespace PropriedadesRetangulo
     {
         public double largura, altura;
 
+        public double Area
+        {
+            get
+            {
+                return largura * altura;
+            }
+        }
+
         public double CalcularArea()
         {
             return largura * altura;
