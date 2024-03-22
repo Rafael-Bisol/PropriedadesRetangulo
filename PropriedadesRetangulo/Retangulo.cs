@@ -37,5 +37,9 @@ namespace PropriedadesRetangulo
             this.largura = largura;
             this.altura = altura;
         }
+        public override string ToString()
+        {
+            return $"Retângulo:\n\tLargura: {largura}\n\tAltura: {altura}";
+        }
     }
 }

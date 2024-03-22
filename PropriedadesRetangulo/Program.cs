@@ -20,6 +20,8 @@ namespace PropriedadesRetangulo
                 "\nPerimetro: " + retangulo1.CalcularPerimetro() +
                 "\nDiagonal: " + retangulo1.CalcularDiagonal() +
                 "\nArea Teste: " + retangulo1.Area);
+            
+            Console.WriteLine(retangulo1.ToString());
         }
     }
 }
