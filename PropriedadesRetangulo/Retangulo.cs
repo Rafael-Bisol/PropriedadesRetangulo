@@ -28,5 +28,14 @@ namespace PropriedadesRetangulo
         {
             return Math.Sqrt(largura * largura + altura * altura);
         }
+
+        public Retangulo(){
+            largura = 1;
+            altura = 1;
+        }
+        public Retangulo(double largura, double altura){
+            this.largura = largura;
+            this.altura = altura;
+        }
     }
 }
